@@ -1,0 +1,63 @@
+html {
+    background-color: rgba(66, 122, 80, 0.801);
+}
+span {
+    display: inline-block;
+    padding: 10px; 
+    border: 2px solid black; /* Set the border properties */
+    border-radius: 2%;
+  }
+
+  .SpansContainer {
+    display: flex;
+  }
+
+  .LeftSpan, .RightSpan {
+    text-align: center;
+    flex-basis: 25%;
+    background-color: lightblue;
+  }
+
+  .MainSpan {
+    margin-left: 1%;
+    margin-right: 1%;
+    flex-grow: 1;
+    text-align: center;
+    padding: 10px;
+    flex-basis: 50%;
+    background-color: lightgreen;
+  }
+
+  .TopDiv {
+    display: flex;
+  }
+  .TopDivSpan {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    background-color: bisque;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    flex-grow: 1;
+    flex-basis: 50%;
+  }
+  .TopDivSpan:hover {
+    background-color: rgb(206, 159, 101);
+    cursor: pointer;
+  }
+
+.HeaderStyle {  /* "Title" of the website */
+    color: #080808;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: bold; /* Apply bold font weigsht */
+    text-transform: uppercase; /* Convert the text to uppercase */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.548); /* Add a text shadow effect */
+    text-align: center;
+
+    border: 10px solid black;
+    border-radius: 50px; /* Apply rounded corners to the border */
+
+    background-color: rgb(228, 215, 215); /* Set a background color for the header */
+    margin-bottom: 30px; /* Add some space below the header */
+  }

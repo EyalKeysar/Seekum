@@ -1,0 +1,14 @@
+.HeaderStyle {
+    color: #080808;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.548);
+    text-align: center;
+
+    border: 10px solid black;
+    border-radius: 50px;
+
+    background-color: rgb(228, 215, 215);
+    margin-bottom: 30px;
+  }
