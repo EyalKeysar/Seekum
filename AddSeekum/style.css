@@ -12,3 +12,26 @@
     background-color: rgb(228, 215, 215);
     margin-bottom: 30px;
   }
+
+  .InputSeekumNameStyle {
+    width: 100px;
+    padding: 10px;
+  }
+
+  .FileInputStyle {
+    font-size: 15px;
+    width: 200px;
+    height: 25px;
+    padding: 10px 20px;
+    background-color: #767575;
+    color: #333;
+    border: none;
+    cursor: pointer;
+  }
+  .FileInputStyle:hover {
+    background-color: #3d3d3d;
+  }
+  .FormDivStyle {
+    font-family: 'Trebuchet MS', sans-serif;
+    margin-bottom: 10px;
+  }
