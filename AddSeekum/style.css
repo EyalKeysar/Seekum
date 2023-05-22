@@ -13,6 +13,36 @@
     margin-bottom: 30px;
   }
 
+  span {
+    display: inline-block;
+    padding: 10px; 
+    border: 2px solid black; /* Set the border properties */
+    border-radius: 2%;
+  }
+
+  .SendSeekumButtonStyle {
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    height: 40px;
+    color: #000000;
+    background-color: antiquewhite;
+  }
+  .SendSeekumButtonStyle:hover {
+    background-color: rgb(206, 159, 101);
+  }
+  .SendSeekumButtonStyle:active {
+    background-color: rgb(255, 140, 0);
+    border-color: aqua;
+  }
+
+  .SpansContainer {
+    display: flex;
+  }
+
+
   .InputSeekumNameStyle {
     width: 100px;
     padding: 10px;

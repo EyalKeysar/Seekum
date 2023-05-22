@@ -17,14 +17,35 @@
 
     
     <body>
-        <div class="FormDivStyle">
-            <a> Please enter the Seekum writer's name:</a>
-            <input type="text" class="InputSeekumNameStyle" placeholder="Seekum Name">
+
+        <div>
+            
+            <span class="MainSpanStyle">
+
+                <div class="FormDivStyle">
+                    <a> Please enter the Seekum writer's name:</a>
+                    <input type="text" class="InputSeekumNameStyle" placeholder="Seekum Name">
+                </div>
+                <div class="FormDivStyle">
+                    <a> Please enter Seekum file: </a>
+                    <input type="file" class="FileInputStyle" accept=".txt, .doc, .docx, .pdf, image/*">
+                </div>
+
+            </span>
+
+
+            <span class="SubjectSpanStyle">
+                <label for="subjects">Choose a subject:</label>
+                <select name="subjects" id="subjects">
+                </select>
+            </span>
+
         </div>
-        <div class="FormDivStyle">
-            <a> Please enter Seekum file: </a>
-            <input type="file" class="FileInputStyle" accept=".txt, .doc, .docx, .pdf, image/*">
+        <div>
+            <button class="SendSeekumButtonStyle"> > Send Seekum < </Send></button>
         </div>
+
+
         <script src="main.js"></script>
     </body>
 
