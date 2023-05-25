@@ -18,25 +18,35 @@
     
     <body>
 
-        <div>
+        <div class="SpansContainer">
             
             <span class="MainSpanStyle">
 
                 <div class="FormDivStyle">
-                    <a> Please enter the Seekum writer's name:</a>
-                    <input type="text" class="InputSeekumNameStyle" placeholder="Seekum Name">
+                    <div class="FormDescriptionDivStyle"> Please enter the Seekum writer's name:</div>
+                    <input type="text" class="InputSeekumNameStyle" >
                 </div>
+
                 <div class="FormDivStyle">
-                    <a> Please enter Seekum file: </a>
+                    <div class="FormDescriptionDivStyle"> Please enter the Seekum's Title:</div>
+                    <input type="text" class="InputSeekumNameStyle" >
+                </div>
+
+                <div class="FormDivStyle">
+                    <div class="FormDescriptionDivStyle"> Please enter Seekum file: </div>
                     <input type="file" class="FileInputStyle" accept=".txt, .doc, .docx, .pdf, image/*">
+                </div>
+                <div>
+                    <div  class="FormDescriptionDivStyle"> Other notes: </div>
+                    <textarea name="NotesForSeekum" cols="50" rows="10" class="TextAreaNotesStyle"></textarea>
                 </div>
 
             </span>
 
 
             <span class="SubjectSpanStyle">
-                <label for="subjects">Choose a subject:</label>
-                <select name="subjects" id="subjects">
+                <label class="FormDescriptionDivStyle" for="subjects">Choose a subject:</label>
+                <select class="FormSubjectSelectStyle" name="subjects" id="subjects">
                 </select>
             </span>
 
