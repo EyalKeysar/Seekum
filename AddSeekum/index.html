@@ -17,7 +17,46 @@
 
     
     <body>
-        Hey There!
+
+        <div class="SpansContainer">
+            
+            <span class="MainSpanStyle">
+
+                <div class="FormDivStyle">
+                    <div class="FormDescriptionDivStyle"> Please enter the Seekum writer's name:</div>
+                    <input type="text" class="InputSeekumNameStyle" >
+                </div>
+
+                <div class="FormDivStyle">
+                    <div class="FormDescriptionDivStyle"> Please enter the Seekum's Title:</div>
+                    <input type="text" class="InputSeekumNameStyle" >
+                </div>
+
+                <div class="FormDivStyle">
+                    <div class="FormDescriptionDivStyle"> Please enter Seekum file: </div>
+                    <input type="file" class="FileInputStyle" accept=".txt, .doc, .docx, .pdf, image/*">
+                </div>
+                <div>
+                    <div  class="FormDescriptionDivStyle"> Other notes: </div>
+                    <textarea name="NotesForSeekum" cols="50" rows="10" class="TextAreaNotesStyle"></textarea>
+                </div>
+
+            </span>
+
+
+            <span class="SubjectSpanStyle">
+                <label class="FormDescriptionDivStyle" for="subjects">Choose a subject:</label>
+                <select class="FormSubjectSelectStyle" name="subjects" id="subjects">
+                </select>
+            </span>
+
+        </div>
+        <div>
+            <button class="SendSeekumButtonStyle"> > Send Seekum < </Send></button>
+        </div>
+
+
+        <script src="main.js"></script>
     </body>
 
 </html>
