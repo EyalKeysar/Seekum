@@ -77,6 +77,8 @@
   }
   .TextAreaNotesStyle {
     font-size: large;
+    resize: none;
+    width: 95%;
   }
 
   .FileInputStyle {
