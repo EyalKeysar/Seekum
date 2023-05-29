@@ -50,7 +50,6 @@ async function handleFile() {
 
 
 
-
 function GetSeekumData(){
     var SeekumWriterName = document.getElementById("SeekumWriterNameInputID");
     var SeekunTitle = document.getElementById("SeekumTitleInputID");
@@ -64,7 +63,7 @@ function GetSeekumData(){
 
     var seekum_data = {
         "SeekumWriterName": SeekumWriterName.value,
-        "SeekunTitle": SeekunTitle.value,
+        "SeekumTitle": SeekunTitle.value,
         "SeekumSubject": SeekumSubject.value,
         "OtherNotes": OtherNotes.value,
         "FileContent": fileContent
@@ -74,11 +73,12 @@ function GetSeekumData(){
 }
 
 let database = firebase.database();
-database.ref('a').set({"aasd": 0});
 
 sendButton.addEventListener("click", async function(){
     await handleFile();
     console.log(fileContent);
-    GetSeekumData();   
+    let seekumdata = GetSeekumData();   
+    let refLoc = 'seekums/' + seekumdata["SeekumSubject"] + "/" + seekumdata["SeekumWriterName"] + "/" + seekumdata["SeekumTitle"] + "/";
+    database.ref(refLoc).set(seekumdata);
 });
   
