@@ -6,12 +6,12 @@
   <head>
     <link rel="stylesheet" href="style.css">
     <div class="HeaderStyle">
-        <h1>`
+        <h1>
             Seekum Website
         </h1>
-        <h3>
+        <!---<h3>
             Made by: Eyal Keysar
-        </h3>
+        </h3>----> 
     </div>
   </head>
 
@@ -25,7 +25,7 @@
 
         <span class="MainSpan">
             <div class="TopDiv">
-                <span class="TopDivSpan" onclick="window.location = '/AddSeekum'">
+                <span class="TopDivSpan" onclick="window.location = '/Home/AddSeekum'">
                     Add Seekum
                 </span>
             </div>
@@ -51,6 +51,19 @@
     </div>
     <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-database.js"></script>
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyC0ZC_xEv-Zxd9LQPOiv720_oxi9j9qLzU",
+            authDomain: "seekum-1ce54.firebaseapp.com",
+            databaseURL: "https://seekum-1ce54-default-rtdb.europe-west1.firebasedatabase.app",
+            projectId: "seekum-1ce54",
+            storageBucket: "seekum-1ce54.appspot.com",
+            messagingSenderId: "990280632064",
+            appId: "1:990280632064:web:ba7929efd9354226bcd5e5",
+            measurementId: "G-51TWQVEK1M"
+          };
+          firebase.initializeApp(firebaseConfig);
+    </script>
 	<script type="module" src="mainj.js"></script>
 
   </body>

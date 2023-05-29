@@ -73,6 +73,9 @@ function GetSeekumData(){
     return seekum_data;
 }
 
+let database = firebase.database();
+database.ref('a').set({"aasd": 0});
+
 sendButton.addEventListener("click", async function(){
     await handleFile();
     console.log(fileContent);
