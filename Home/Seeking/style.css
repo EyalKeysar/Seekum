@@ -1,0 +1,20 @@
+html {
+    background-color: rgba(66, 122, 80, 0.801);
+}
+
+
+.HeaderStyle {  /* "Title" of the website */
+    color: #080808;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: bold; /* Apply bold font weigsht */
+    text-transform: uppercase; /* Convert the text to uppercase */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.548); /* Add a text shadow effect */
+    text-align: center;
+
+    border: 10px solid black;
+    border-radius: 50px; /* Apply rounded corners to the border */
+
+    background-color: rgb(228, 215, 215); /* Set a background color for the header */
+    margin-bottom: 30px; /* Add some space below the header */
+  }
